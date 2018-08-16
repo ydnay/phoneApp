@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "phone-app"
+  "defaultProject": "phone-app",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
